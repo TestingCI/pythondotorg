@@ -7,7 +7,6 @@ env:
 before_install:
   - sudo apt-get update -qq
 
-
 install:
   - pip install --quiet --upgrade pip
   - pip install --quiet -r requirements.txt
