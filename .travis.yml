@@ -1,4 +1,5 @@
 language: python
+
 python:
   - "3.3"
 env:
@@ -17,4 +18,4 @@ script:
   - coverage run manage.py test
   - coverage report --fail-under=85
   
-cache: true
+#cache: true
